@@ -1,0 +1,374 @@
+/* inter-200 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/inter-v12-cyrillic_latin-200.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-300 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/inter-v12-cyrillic_latin-300.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v12-cyrillic_latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v12-cyrillic_latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v12-cyrillic_latin-600.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v12-cyrillic_latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+/* header styles start*/
+
+.header {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-top: 31px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #272727;
+}
+
+.header_nav {
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 9px;
+}
+
+.header_item {
+  margin-right: 20px;
+}
+
+.header_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header_item:last-child {
+  margin-right: 128px;
+}
+
+.header_item:first-child {
+  margin-left: 80px;
+}
+
+
+
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  opacity: .75;
+}
+
+
+.soc_med_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.soc_med_item {
+  margin-right: 18px;
+}
+
+.soc_med_item:last-child {
+  margin-right: 34px;
+}
+
+.soc_med_link:hover,
+.soc_med_link:focus,
+.soc_med_link:active {
+  opacity: .75;
+}
+
+.btn_fbk {
+  font-family: 'Inter';
+  font-size: 10px;
+  font-weight: 600;
+  width: 120px;
+  height: 40px;
+  border: 2px solid #D9D9D9;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  justify-self: left;
+}
+
+.btn_fbk:hover,
+.btn_fbk:focus,
+.btn_fbk:active {
+  background-color: #D9D9D9;
+}
+
+/* header styles finish*/
+
+
+
+/* intro styles start*/
+
+.intro {
+  margin-top: 109px;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 40px;
+}
+
+.first_column {
+  width: 700px;
+
+}
+
+.second_column {
+  width: 700px;
+}
+
+.intro_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 109px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0 70px 0;
+  border-bottom: 1px solid #272727;
+}
+
+.und_ttl {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+}
+
+.intro_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 800px;
+}
+
+
+.intro_subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 19px 0 19px 78px;
+  border-bottom: 1px solid #272727;
+
+}
+
+.sub-sub_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 50px 0 30px 78px;
+}
+
+.questions {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 300px;
+  height: 56px;
+  background: #8E8E8E;
+  margin: 0 0 0 78px;
+  border: 0;
+}
+
+.second_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 800px;
+}
+
+.title_about {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  padding: 100px 0 60px 99px;
+}
+
+.desctription_about {
+  padding: 0 0 0 99px;
+  width: 600px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+/* intro styles finish*/
+
+
+/* news styles start*/
+
+.chat_in_phone {
+  background-color: #D9D9D9;
+  height: 930px;
+  margin-bottom: 80px;
+}
+
+.phone_with_chat {
+  width: 375px;
+  height: 812px;
+  margin: 59px 0 59px 445px;
+}
+
+/* .news_part {} */
+
+.our_news {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.gray_rec {
+  margin-bottom: 22px;
+}
+
+.main_text_under_rec {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.text_under_rec {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  width: 600px;
+}
+
+.unit_of_block {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  flex-wrap: wrap;
+}
+
+.third_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 800px;
+}
