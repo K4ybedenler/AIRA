@@ -306,6 +306,8 @@ body {
 /* intro styles finish*/
 
 
+
+
 /* news styles start*/
 
 .chat_in_phone {
@@ -320,7 +322,11 @@ body {
   margin: 59px 0 59px 445px;
 }
 
-/* .news_part {} */
+.news_part {
+  height: 738px;
+  border-bottom: 1px solid #272727;
+  margin-bottom: 50px;
+}
 
 .our_news {
   font-family: 'Inter';
@@ -357,12 +363,25 @@ body {
   width: 600px;
 }
 
+.sec_col_news {
+  margin-top: 27px;
+}
+
+.table_of_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
 .unit_of_block {
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  width: 320px;
+  margin-bottom: 50px;
 }
 
 .third_wrapper {
@@ -370,5 +389,30 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  height: 800px;
+}
+
+.title_of_unit_news {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.read_more {
+  width: 320px;
+  height: 56px;
+  background: #8E8E8E url(../img/arrow.svg) no-repeat 220px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 18px 112px 19px 68px;
+  cursor: pointer;
+}
+
+.read_more:hover {
+  opacity: .75;
 }
